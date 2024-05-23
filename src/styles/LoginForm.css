@@ -1,0 +1,21 @@
+.signup__form--container,
+.login__form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login__image--container {
+  background-image: url(https://img.freepik.com/free-vector/happy-boy-girl-wearing-shirt-with-flag-macau_1308-29324.jpg?size=626&ext=jpg&ga=GA1.2.1807155819.1682186062&semt=ais);
+  height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+  .login__image--container,
+  .signup__image--container {
+    display: none
+  }
+}
